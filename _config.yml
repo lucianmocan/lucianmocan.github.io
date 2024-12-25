@@ -2,6 +2,11 @@ title: Lucian MOCAN
 description: Your role and description
 url: "https://lucianmocan.github.io"
 baseurl: ""
+permalink: /blog/:title/
+sass:
+  load_paths:
+    - assets/css/_sass
+  style: compressed
 
 # Basic site structure
 defaults:

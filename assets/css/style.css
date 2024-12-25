@@ -41,10 +41,8 @@ body .container .content-container {
   margin: 0 auto;
   padding: 0rem 2rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-align: justify;
-  justify-content: center;
+  flex-direction: column;
 }
 body .container .content-container .paragraph {
   text-align: justify;
@@ -93,6 +91,86 @@ nav a.active {
 }
 nav a:hover {
   color: #666;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.post-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  margin-left: 0.5rem;
+}
+.post-card:hover {
+  transform: translateY(-5px);
+}
+.post-card .post-thumbnail {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+.post-card .post-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post-card .post-content {
+  padding: 1.25rem;
+}
+.post-card .post-content h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+}
+.post-card .post-content .post-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+.post-card .post-content .post-excerpt {
+  margin: 1rem 0;
+  color: #444;
+}
+.post-card .post-content .read-more {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.post-card .post-content .read-more:hover {
+  text-decoration: underline;
+}
+
+.article-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.article-content figure {
+  margin: 2rem auto;
+  text-align: center;
+}
+.article-content figure img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+.article-content figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */
