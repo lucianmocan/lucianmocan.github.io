@@ -2,7 +2,7 @@
 layout: post
 title: "My short life history (FR)"
 date: "10 october 2023"
-thumbnail: "/assets/images/blog/short_life_history/tram_in_stras.JPG"
+thumbnail: "/assets/images/blog/short_life_history/tram_stras.jpg"
 ---
 
 ## Quelle est mon histoire ?
@@ -32,7 +32,7 @@ J'allais oublier... Plus tard, j'ai réussi mon premier Hackintosh... installer 
 En 2021, j'ai terminé le lycée. J'ai passé le bac. J'ai eu 9,75/10 de moyenne. J'avais la deuxième meilleure note dans la région. J'étais content, mais un peu inquiété par un futur dont je ne connaissais rien. 
 
 <figure>
-    <img src="/assets/images/blog/short_life_history/with_the_president.JPG" alt="photo of me and the country president"/>
+    <img src="/assets/images/blog/short_life_history/with_president.jpg" alt="photo of me and the country president"/>
     <figcaption>Me and the President of Moldova, Maia Sandu, at an event celebrating high school graduation achievements</figcaption>
 </figure>
 
