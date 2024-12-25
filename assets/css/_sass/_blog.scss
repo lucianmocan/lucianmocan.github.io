@@ -2,12 +2,13 @@
     display: grid;
     grid-template-columns: minmax(300px, 1fr);
     gap: 1.5rem; // Increased gap
-    padding: 2rem 2rem; // Added horizontal padding
+    padding: 1rem 2rem; // Added horizontal padding
     max-width: 650px; // Slightly increased max-width
     margin: 0 auto;
 
     @media screen and (min-width: 768px) {
         grid-template-columns: repeat(2, minmax(250px, 1fr));
+        padding: 2rem 2rem; // Added horizontal padding
     }
 }
 
@@ -70,7 +71,6 @@
 .article-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
 
     figure {
         margin: 2rem auto;
