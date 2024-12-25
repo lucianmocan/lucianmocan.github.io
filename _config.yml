@@ -1,0 +1,20 @@
+title: Lucian MOCAN
+description: Your role and description
+url: "https://lucianmocan.github.io"
+baseurl: ""
+
+# Basic site structure
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Social links
+social:
+  twitter: yourusername
+  github: yourusername
+  email: you@example.com
+
+plugins:
+  - jekyll-seo-tag
