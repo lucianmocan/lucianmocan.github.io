@@ -3,7 +3,7 @@
     grid-template-columns: minmax(300px, 1fr);
     gap: 1.5rem; // Increased gap
     padding: 1rem 2rem; // Added horizontal padding
-    max-width: 650px; // Slightly increased max-width
+    max-width: 600px; // Slightly increased max-width
     margin: 0 auto;
 
     @media screen and (min-width: 768px) {
@@ -69,15 +69,16 @@
 }
 
 .article-content {
-    max-width: 800px;
+    max-width: 550px;
     margin: 0 auto;
+    padding: 1rem 0rem;
 
     figure {
         margin: 2rem auto;
         text-align: center;
         
         img {
-            max-width: 50%;
+            max-width: 70%;
             height: auto;
             display: block;
             margin: 0 auto;
