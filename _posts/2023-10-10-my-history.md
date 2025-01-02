@@ -40,9 +40,9 @@ J'ai été accepté en Licence Informatique à l'Université de Strasbourg. Tout
 
 ### En France
 
-J'arrive en France en autmone 2021 pour mon premier semestre de Licence Informatique. Je travaille, je bosse, je suis tout seul... nouvelle expérience. J'ai une bonne moyenne : 16,xx. On me propose de joindre le CMI (Cursus Master Ingénierie), soit IRVIIJ, soit ISR. Mais ce que vous ne savez pas, c'est que dans ma lettre de motivation pour l'Université de Strasbourg, j'avais écrit que j'envisageait un master en Systèmes et Réseaux. Ça fait partie du CMI. Wouah !
+J'arrive en France en autmone 2021 pour mon premier semestre de Licence Informatique. Je travaille, je bosse, je suis tout seul... nouvelle expérience. J'ai une bonne moyenne : 16,xx. On me propose de joindre le CMI (Cursus Master Ingénierie), soit IRVIIJ, soit ISR. Mais ce que vous ne savez pas, c'est que dans ma lettre de motivation pour l'Université de Strasbourg, j'avais écrit que j'envisageais un master en Systèmes et Réseaux. Ça fait partie du CMI. Wouah !
 
-Je n'en ai pas parlé pour l'instant, mais les semestres qui suivent je passe des moments un peu difficile, des moments où je me dis que je ne suis pas assez bon pour être là... des moments où je me disqualifie moi-même. C'est difficile, et cela a un impact sur mes résultats.
+Je n'en ai pas parlé pour l'instant, mais les semestres qui suivent je passe des moments un peu difficiles, des moments où je me dis que je ne suis pas assez bon pour être là... des moments où je me disqualifie moi-même. C'est difficile, et cela a un impact sur mes résultats.
 
 De plus en plus, je reconnais l'importance des parents forts (ni dures, ni sèveres, mais qui savent guider par leur example). Étonnament, à chaque fois que je parle à mes parents, tout va mieux, il n'y a même pas besoin de parler de mes problèmes... elles s'en vont.
 
