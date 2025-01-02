@@ -17,11 +17,11 @@ Why? Because I wish I could be that convinced of my opinions—right or wrong. M
 
 *How about standing on something?* Be a person of principles. You can have principles, and while your opinions might change, like a smart sailor, you'll see the waves from east to west, from north to south and navigate clearly to the destination of your choice... even though unknown. 
 
-That's what I love about life: one destination, though unknown, with God as the guide. Like stars in the sky-but better. Like the lighthouse-but brighter. Into the unknown. **That's confidence amidst uncertainty.**
+That's what I love about life—it looks like this to me: one destination, though unknown, with God as the guide. Like stars in the sky-but better. Like a lighthouse-but brighter. Into the unknown. **That's confidence amidst uncertainty.**
 
 I love it and fear it. I hate it and trust it. Oh man, I love this. 
 
 North, west, south... or east? Who cares! I have myself a
-rock, not made of cultural or societal thoughts and opinions, but a living guide who makes big waves look like rain puddles and the sun like a dandelion puff. 
+rock, not made of cultural or societal thoughts and opinions, but a living guide who makes big waves look like rain puddles and the sun like dandelion puff. 
 
 "The LORD is my rock, my fortress and my deliverer; my God is my rock, in whom I take refuge, my shield and the horn of my salvation, my stronghold." Psalm 18:2
