@@ -6,7 +6,6 @@ thumbnail: "../assets/images/blog/short_life_history/tram_stras.jpg"
 ---
 
 ## Quelle est mon histoire ?
-
 Je suis né en Moldavie, à Ungheni. J'ai fait mes études, depuis la primaire jusqu'au bacalauréat, dans le parcours bilingue francophone. Cela m'a appris énormement et a cultivé en moi une passion pour la France. Mais pas que, car dès très petit j'étais fasciné par l'ordinateur. Tellement de choses qu'on peut faire... Wouah !
 
 Au début, je passais des heures sur Google Earth (années 2009 - 2010, si je ne me trompe pas). Pour faire quoi ? Simplement pour regarder des endroits intéressants à mes yeux et noter les coordonnées dans un cahier. J'aimais découvrir le monde et j'aime toujours. Je désire connaître encore plus. J'ai toujours voulu savoir plus. Il ne me suffisait jamais de juste d'utiliser l'ordinateur, il me fallait essayer tout, tout ce qui était accessible... "Que fait ce programme ?", "Que fait ce bouton ?", "Pourquoi ça réagit comme ça quand je fais ça ?".
