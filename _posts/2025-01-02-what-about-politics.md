@@ -11,7 +11,7 @@ You know, politics are fun. I mean, it's quite fascinating to watch people get s
 
 I love opinionated people. They don't stress about not having an opinion. They express themselves freely, never hesitating or saying, "I don't know." So much fun! Why do I love them? Because they are so easily offended. While pretending to know *everything*, they are blind to everything that isn't their *everything*. Talking to them feels like speaking to a brick wall—and honestly, I love it!
 
-Why? Because I wish I could be that convinced of my opinions—right or wrong. Maybe I wouldn't stress that much: "Am I doing the right thing?", "Am I supposed to think like this or like that?", "How should I react?", "What's the right way to think about this?". You know, it feels like a boat that gets pushed by waves from east to west, to north to south... It feels stuck. It feels empty. **That's the trap of absolute certainty.**
+Why? Because I wish I could be that convinced of my opinions—right or wrong. Maybe I wouldn't stress that much: "Am I doing the right thing?", "Am I supposed to think like this or like that?", "How should I react?", "What's the right way to think about this?". You know, it feels like a boat that gets pushed by waves from east to west, from north to south... It feels stuck. It feels empty. **That's the trap of absolute certainty.**
 
 ### How about standing on something?
 
