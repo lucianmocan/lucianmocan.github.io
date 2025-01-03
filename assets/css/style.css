@@ -141,6 +141,7 @@ nav a:hover {
 .post-card .post-content h2 {
   margin: 0 0 0.5rem;
   font-size: 1.4rem;
+  text-align: left;
 }
 .post-card .post-content .post-date {
   color: #666;
@@ -158,6 +159,29 @@ nav a:hover {
 }
 .post-card .post-content .read-more:hover {
   text-decoration: underline;
+}
+.post-card .post-content .post-tags {
+  margin: 8px 0;
+}
+.post-card .post-content .tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 500;
+  background-color: #526D82;
+  color: white;
+}
+.post-card .post-content .tag i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.post-card .post-content .tag-technical {
+  background-color: #27374D;
+}
+.post-card .post-content .tag-thoughts {
+  background-color: #9DB2BF;
 }
 
 .article-content {

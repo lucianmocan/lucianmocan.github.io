@@ -43,6 +43,7 @@
         h2 {
             margin: 0 0 0.5rem;
             font-size: 1.4rem;
+            text-align: left;  // Add this line
         }
 
         .post-date {
@@ -64,6 +65,34 @@
             &:hover {
                 text-decoration: underline;
             }
+        }
+
+        .post-tags {
+            margin: 8px 0;
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 4px 8px;
+            margin-right: 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 500;
+            background-color: #526D82; // default muted blue-gray
+            color: white;
+     
+            i {
+                margin-right: 4px;
+                font-size: 0.9em;
+            }
+        }
+        
+        .tag-technical {
+            background-color: #27374D; // deep navy blue
+        }
+        
+        .tag-thoughts {
+            background-color: #9DB2BF; // soft blue-gray
         }
     }
 }

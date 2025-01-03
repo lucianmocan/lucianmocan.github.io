@@ -3,6 +3,7 @@ layout: post
 title: "My short life history (FR)"
 date: "10 october 2023"
 thumbnail: "../assets/images/blog/short_life_history/tram_stras.jpg"
+tags: [thoughts]
 ---
 
 ## Quelle est mon histoire ?
