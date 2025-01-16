@@ -2,7 +2,7 @@
 layout: post
 title: "The need to share what you write"
 date: "16 January 2025"
-thumbnail: "../assets/images/blog/what_about_politics/dandelion.jpg"
+thumbnail: "../assets/images/blog/why_i_write/why_i_write.jpg"
 tags: [thoughts, english]
 excerpt: "Two weeks ago, at the library, I got a book called \"Selected Essays\" by George Orwell. The first essay in that book is titled \"Why I Write\"."
 ---
