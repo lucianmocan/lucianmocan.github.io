@@ -4,6 +4,7 @@ title: "My short life history"
 date: "10 october 2023"
 thumbnail: "../assets/images/blog/short_life_history/tram_stras.jpg"
 tags: [thoughts, français]
+excerpt: "J'ai fait mes études, depuis la primaire jusqu'au bacalauréat, dans le parcours bilingue francophone. Cela m'a appris énormement et a cultivé en moi une passion pour la France."
 ---
 
 ## Quelle est mon histoire ?
