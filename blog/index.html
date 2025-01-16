@@ -29,7 +29,7 @@ layout: default
                         {% endfor %}
                     </div>
                 {% endif %}
-                    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                    <span class="post-date">{{ post.date | date: "%B %d, %Y" }} • {{ post.content | reading_time }}</span>
                     <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 12 }}</p>
                 </div>
             </div>
