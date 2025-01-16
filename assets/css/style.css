@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --gradient-start: #e0f7fa;
   --gradient-end: #fff1ff;
@@ -179,6 +180,12 @@ nav a:hover {
 }
 .post-card .post-content .tag-technical {
   background-color: #27374D;
+}
+.post-card .post-content .tag-english {
+  background-color: #4A90E2;
+}
+.post-card .post-content .tag-français {
+  background-color: #EF3340;
 }
 .post-card .post-content .tag-thoughts {
   background-color: #9DB2BF;
