@@ -1,6 +1,6 @@
 :root {
-  --gradient-start: #e0f7fa;
-  --gradient-end: #fff1ff;
+  --gradient-start: #dfeefe;
+  --gradient-end: #d0e3f9;
 }
 
 body {
@@ -118,10 +118,11 @@ nav a:hover {
 }
 
 .post-card {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(239, 246, 255, 0.9));
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   width: 100%;
   margin: 0 auto;
