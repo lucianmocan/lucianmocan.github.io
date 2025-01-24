@@ -26,18 +26,6 @@
         transform: translateY(-5px);
     }
 
-    .post-thumbnail {
-        width: 100%;
-        height: 150px; // Reduced height
-        overflow: hidden;
-        
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-
     .post-content {
         padding: 1.25rem; // Increased padding
 
@@ -50,11 +38,6 @@
         .post-date {
             color: #666;
             font-size: 0.9rem;
-        }
-
-        .post-excerpt {
-            margin: 1rem 0;
-            color: #444;
         }
 
         .read-more {

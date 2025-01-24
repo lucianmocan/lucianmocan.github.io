@@ -2,9 +2,7 @@
 layout: post
 title: "Hmm... What about politics?"
 date: "2 January 2025"
-thumbnail: "../assets/images/blog/what_about_politics/dandelion.jpg"
 tags: [thoughts, english]
-excerpt: "You know, politics are fun. I mean, it's quite fascinating to watch people get so riled up about ideas. "
 ---
 
 ## What about politics?

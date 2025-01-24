@@ -37,6 +37,9 @@ body .container {
   text-align: justify;
   justify-content: center;
 }
+body .container .content {
+  width: 100%;
+}
 body .container .content-container {
   max-width: 600px;
   margin: 0 auto;
@@ -127,16 +130,6 @@ nav a:hover {
 .post-card:hover {
   transform: translateY(-5px);
 }
-.post-card .post-thumbnail {
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
-}
-.post-card .post-thumbnail img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .post-card .post-content {
   padding: 1.25rem;
 }
@@ -148,10 +141,6 @@ nav a:hover {
 .post-card .post-content .post-date {
   color: #666;
   font-size: 0.9rem;
-}
-.post-card .post-content .post-excerpt {
-  margin: 1rem 0;
-  color: #444;
 }
 .post-card .post-content .read-more {
   display: inline-block;
