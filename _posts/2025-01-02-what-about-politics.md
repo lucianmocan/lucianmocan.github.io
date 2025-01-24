@@ -2,6 +2,7 @@
 layout: post
 title: "Hmm... What about politics?"
 date: "2 January 2025"
+thumbnail: "../assets/images/blog/what_about_politics/dandelion.jpg"
 tags: [thoughts, english]
 ---
 

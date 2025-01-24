@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --gradient-start: #e0f7fa;
   --gradient-end: #fff1ff;
@@ -130,6 +129,39 @@ nav a:hover {
 .post-card:hover {
   transform: translateY(-5px);
 }
+.post-card .post-thumbnail {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+.post-card .post-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post-card .post-thumbnail .post-tags {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.post-card .post-thumbnail .post-tags .tag {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.post-card .post-thumbnail .post-tags .tag i {
+  font-size: 0.9rem;
+}
 .post-card .post-content {
   padding: 1.25rem;
 }
@@ -150,35 +182,6 @@ nav a:hover {
 }
 .post-card .post-content .read-more:hover {
   text-decoration: underline;
-}
-.post-card .post-content .post-tags {
-  margin: 8px 0;
-}
-.post-card .post-content .tag {
-  display: inline-block;
-  padding: 4px 8px;
-  margin-right: 8px;
-  border-radius: 4px;
-  font-size: 0.8em;
-  font-weight: 500;
-  background-color: #526D82;
-  color: white;
-}
-.post-card .post-content .tag i {
-  margin-right: 4px;
-  font-size: 0.9em;
-}
-.post-card .post-content .tag-technical {
-  background-color: #27374D;
-}
-.post-card .post-content .tag-english {
-  background-color: #4A90E2;
-}
-.post-card .post-content .tag-français {
-  background-color: #EF3340;
-}
-.post-card .post-content .tag-thoughts {
-  background-color: #9DB2BF;
 }
 
 .post-date-md {

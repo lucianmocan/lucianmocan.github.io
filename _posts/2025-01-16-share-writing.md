@@ -2,6 +2,7 @@
 layout: post
 title: "The need to share what you write"
 date: "16 January 2025"
+thumbnail: "../assets/images/blog/why_i_write/why_i_write.jpg"
 tags: [thoughts, english]
 ---
 
