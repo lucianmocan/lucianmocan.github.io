@@ -37,6 +37,6 @@ Un matin, il se réveilla aux aurores et sortit pour respirer l'air pur des for�
 
 Il avait enfin une réponse.
 
-Ses pensées, semblées désormais plus en ordre, et cela lui apportait un apaisement profond. Ému, il esquissa un sourire sincère. Dans un murmure calme, il se dit :
+Ses pensées semblaient désormais plus en ordre, et cela lui apportait un apaisement profond. Ému, il esquissa un sourire sincère. Dans un murmure calme, il se dit :
 
 — Hmm... Vivre dans l'instant présent, c'est ça, non ? Comprendre qui je suis pour voir où je vais.
