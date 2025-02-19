@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="song">
+    <div class="song-header">
+        <h1>{{ page.title }}</h1>
+        <div class="song-meta">
+            <p><strong>Original Title:</strong> {{ page.original_title }}</p>
+            <p><strong>Artist:</strong> {{ page.artist }}</p>
+            <p><strong>Written by:</strong> {{ page.writers }}</p>
+            {% if page.translator %}
+            <p><strong>Translated by:</strong> {{ page.translator }}</p>
+            {% endif %}
+        </div>
+        <button class="print-button" onclick="printSong()">
+            <span class="print-icon">
+                <i class="fas fa-file-pdf"></i>
+            </span>
+            <span class="print-text">Export PDF</span>
+        </button>
+    </div>
+    <div class="song-content">
+        {{ content }}
+    </div>
+</article>
+<script src="{{ '/assets/js/print.js' | relative_url }}"></script>
