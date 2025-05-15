@@ -19,12 +19,20 @@ defaults:
       type: "songs"
     values:
       layout: "song"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
 # Collections
 collections:
   songs:
     output: true
     permalink: /songs/:title/
+  projects:
+    output: true
+    permalink: /projects/:title/
 
 # Social links
 social:
