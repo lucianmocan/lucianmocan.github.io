@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Compilation and interpretation of functions in the Althread language"
+title: "(TER) Compilation and interpretation of functions in the Althread language"
 description: "Research Project (TER) at the University of Strasbourg"
 date: "15 May 2025"
 ---
