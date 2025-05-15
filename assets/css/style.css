@@ -4,6 +4,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
@@ -53,13 +55,6 @@ body .container .content-container {
 }
 body .container .content-container .paragraph {
   text-align: justify;
-}
-body hr {
-  min-width: 500px;
-  color: #999;
-  border: none;
-  margin: 0;
-  border-top: 1px solid rgba(153, 153, 153, 0.3);
 }
 
 footer {
