@@ -28,7 +28,7 @@ body .profile-image img {
   border-radius: 50%;
 }
 body .container {
-  max-width: 600px;
+  max-width: 550px;
   margin: 0 auto;
   padding: 6rem 2rem 0rem 2rem;
   display: flex;
@@ -41,7 +41,6 @@ body .container .content {
   width: 100%;
 }
 body .container .content-container {
-  max-width: 600px;
   margin: 0 auto;
   padding: 1rem 0rem;
   display: flex;
