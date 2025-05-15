@@ -44,6 +44,6 @@ J'arrive en France en autmone 2021 pour mon premier semestre de Licence Informat
 
 Je n'en ai pas parlé pour l'instant, mais les semestres qui suivent je passe des moments un peu difficiles, des moments où je me dis que je ne suis pas assez bon pour être là... des moments où je me disqualifie moi-même. C'est difficile, et cela a un impact sur mes résultats.
 
-De plus en plus, je reconnais l'importance des parents forts (ni dures, ni sèveres, mais qui savent guider par leur example). Étonnament, à chaque fois que je parle à mes parents, tout va mieux, il n'y a même pas besoin de parler de mes problèmes... elles s'en vont.
+De plus en plus, je reconnais l'importance des parents forts (ni dures, ni sèveres, mais qui savent guider par leur example). Étonnament, à chaque fois que je parle à mes parents, tout va mieux, il n'y a même pas besoin de parler de mes problèmes... ils s'en vont.
 
 ### à suivre...
