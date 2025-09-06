@@ -4,7 +4,7 @@ title: Projects
 ---
 
 <ul class="card-list">
-  {% for project in site.projects %}
+  {% for project in site.projects reversed%}
     <li class="card-list-item">
       <a href="{{ project.url }}" class="card-link">
         <span class="card-title">{{ project.title }}</span>
