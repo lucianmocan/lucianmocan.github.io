@@ -12,4 +12,5 @@ I'm interested in:
 - Working on open-source projects
 - Learning new things
 
-Currently, I'm working under the supervision of my teacher on a [new programming language](https://github.com/althread/althread) designed to help students learn distributed algorithms.
+Check this cool [new programming language](https://github.com/althread/althread) designed to help students learn distributed algorithms.
+
