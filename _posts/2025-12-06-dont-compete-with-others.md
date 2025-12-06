@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Don't compete with others"
+title: "Grass at Head Level"
 date: "6 December 2025"
 tags: [english]
 ---
