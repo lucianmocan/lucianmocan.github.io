@@ -257,6 +257,25 @@ a {
         border: 1px solid var(--rule);
         display: block;
     }
+
+    .resume-download {
+        display: none;
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+        text-decoration: none;
+        border: 1px solid var(--rule);
+        padding: 0.9rem 1.25rem;
+        text-align: center;
+
+        &:hover {
+            background-color: var(--accent-bg);
+            color: var(--accent-dark);
+            text-decoration: none;
+        }
+    }
 }
 
 /* ─── Footer ─────────────────────────────────────────────── */
