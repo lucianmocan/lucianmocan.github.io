@@ -247,6 +247,18 @@ a {
     }
 }
 
+/* ─── Resume viewer ──────────────────────────────────────── */
+
+.resume-viewer {
+    width: 100%;
+    margin-top: 1.5rem;
+
+    iframe {
+        border: 1px solid var(--rule);
+        display: block;
+    }
+}
+
 /* ─── Footer ─────────────────────────────────────────────── */
 
 footer {
