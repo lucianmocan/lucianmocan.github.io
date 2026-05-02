@@ -24,26 +24,26 @@
     align-items: center;
     gap: 8px;
     padding: 10px 20px;
-    background-color: #2196f3;
+    background-color: var(--accent);
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
     transition: all 0.2s ease;
-    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.2);
+    box-shadow: 0 2px 4px rgba(106, 90, 205, 0.2);
     margin: 1rem 0;
 
     &:hover {
-        background-color: #1976d2;
-        box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+        background-color: var(--accent-dark);
+        box-shadow: 0 4px 8px rgba(106, 90, 205, 0.3);
         transform: translateY(-1px);
     }
-    
+
     &:active {
         transform: translateY(0);
-        box-shadow: 0 1px 2px rgba(33, 150, 243, 0.2);
+        box-shadow: 0 1px 2px rgba(106, 90, 205, 0.2);
     }
 
     .print-icon {

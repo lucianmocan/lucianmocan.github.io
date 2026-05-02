@@ -3,5 +3,7 @@ layout: default
 ---
 <article class="article-content">
     {{ content }}
-    <p class="post-date-md">{{ page.date | date: "%B %d, %Y" }}</p>
+    <footer class="post-footer">
+        <time class="post-date-md">{{ page.date | date: "%B %d, %Y" }}</time>
+    </footer>
 </article>

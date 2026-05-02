@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+    <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '../assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="profile-image">
-                <img src="{{ '../assets/images/about/profile.jpg' | relative_url }}" alt="{{ site.title }}">
+            <div class="masthead-flag">
+                <h1 class="site-name"><a href="/">{{ site.title }}</a></h1>
+                <span class="masthead-meta">Est. 2023 &middot; Chicago, IL</span>
             </div>
-            <h2>{{ site.title }}</h2>
             <nav>
                 <a href="/" {% if page.url == "/" %}class="active"{% endif %}>About</a>
                 <a href="/blog" {% if page.url contains "/blog" %}class="active"{% endif %}>Blog</a>
-                <!-- <a href="/songs" {% if page.url contains "/songs" %}class="active"{% endif %}>Songs</a>             -->
                 <a href="/projects" {% if page.url contains "/projects" %}class="active"{% endif %}>Projects</a>
             </nav>
         </header>
@@ -26,7 +26,7 @@
         </main>
     </div>
     <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
     </footer>
 </body>
 </html>
