@@ -4,6 +4,8 @@ layout: default
 
 <p class="section-label">About</p>
 
+<div><img src="/assets/images/about/profile.png" alt="Lucian Mocan" class="profile-float"></div>
+
 I'm **Lucian**, a computer science researcher and software engineer currently pursuing my M.S. in Computer Science, Networks, Internet and Systems Engineering at the [University of Strasbourg](https://mathinfo.unistra.fr/formations/master/master-informatique/odf-parcours-science-et-ingenierie-des-reseaux-de-linternet-et-des-systemes-siris-PR12-18105/?tab=cours), where I also hold a B.S (6th out of 122). I am also enrolled in the highly selective five-year *Cursus Master en Ingénierie* track, run by [Réseau Figure](https://www.reseau-figure.fr/les-cursus-master-en-ingenierie).
 
 Currently, I am a visiting student researcher at [Northwestern University](https://www.mccormick.northwestern.edu/)'s [Prescience Lab](http://www.presciencelab.org/) under Professor [Peter Dinda](http://pdinda.org/). I have a strong interest in exploring how AI can accelerate, and potentially automate, systems research.

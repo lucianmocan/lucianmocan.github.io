@@ -37,6 +37,7 @@ body {
     font-weight: 400;
     line-height: 1.75;
     color: var(--text);
+    text-align: justify;
 }
 
 /* ─── Layout ─────────────────────────────────────────────── */
@@ -150,6 +151,10 @@ nav {
 
 p {
     margin: 0 0 1rem;
+}
+
+p + p {
+    text-indent: 1.5em;
 }
 
 h2 {
@@ -306,7 +311,29 @@ footer {
     padding: 4rem 0 2rem;
 }
 
+/* ─── Profile image ──────────────────────────────────────── */
+
+.profile-float {
+    float: right;
+    width: 240px;
+    margin: 0 0 0.5rem 2rem;
+    shape-outside: url('/assets/images/about/profile.png');
+    shape-image-threshold: 0.1;
+    shape-margin: 1rem;
+}
+
 /* ─── Responsive ─────────────────────────────────────────── */
+
+@media (max-width: 400px) {
+    .profile-float {
+        float: none;
+        display: block;
+        width: 65%;
+        margin: 0 auto 1.5rem;
+        shape-outside: none;
+    }
+}
+
 
 @media (max-width: 640px) {
     .container {
