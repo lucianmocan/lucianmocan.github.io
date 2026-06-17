@@ -6,14 +6,16 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '../assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
+            <div class="masthead-dateline">
+                <span>&nbsp;{{ site.time | date: "%A, %B %-d, %Y" }}</span>
+            </div>
             <div class="masthead-flag">
                 <h1 class="site-name"><a href="/">{{ site.title }}</a></h1>
-                <span class="masthead-meta">Est. 2023 &middot; Chicago, IL</span>
             </div>
             <nav>
                 <a href="/" {% if page.url == "/" %}class="active"{% endif %}>About</a>
