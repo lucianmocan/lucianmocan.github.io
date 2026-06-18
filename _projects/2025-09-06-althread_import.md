@@ -6,10 +6,11 @@ description: "Internship within the Computer Science Department at the Universit
 date: "6 September 2025"
 ---
 
-Internship within the Computer Science Department at the University of Strasbourg [University of Strasbourg](https://mathinfo.unistra.fr/formations/master/master-informatique/odf-parcours-science-et-ingenierie-des-reseaux-de-linternet-et-des-systemes-siris-PR12-18105/?tab=cours)
+During my first-year master's internship, supervised by Professor [Quentin Bramas](https://bramas.fr/), my main objective was to level up [Althread](https://althread.github.io) and make it a truly modular platform. 
 
-[Althread](https://althread.github.io) is an educational programming language designed to model and verify distributed
-systems. It is written in Rust and is being developed at the University of Strasbourg under the supervision of Quentin Bramas.
+To figure out the best approach, I looked at how several different languages handle modules and imports, from Go and Python to TLA+. The attached report, dives into how I used those insights to design a complete namespace-based import system from scratch. The project bridged the gap between compiler engineering and web development, covering everything from adding control-flow analysis for safe function returns to engineering a browser-native virtual file system. 
+
+It outlines the technical hurdles I faced and shows how these features ultimately evolved Althread into a genuinely usable environment for writing and organizing concurrent code.
 
 #### Related Documents
 

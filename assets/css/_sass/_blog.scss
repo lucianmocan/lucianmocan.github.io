@@ -189,5 +189,25 @@
             font-size: 1rem;
             line-height: 1.85;
         }
+
+        figure {
+            margin: 3rem auto;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            figcaption {
+                margin-top: 0.8rem;
+                font-family: var(--font-sans);
+                font-size: 0.8rem;
+                color: var(--text-mid);
+                font-style: normal;
+                letter-spacing: 0.01em;
+            }
+        }
     }
 }
