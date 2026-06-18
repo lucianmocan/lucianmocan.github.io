@@ -1,5 +1,8 @@
 - date: 2026-05-12
   text: "Presented my first poster at [GCASR 2026](https://gcasr.org/2026/)."
+  image: /assets/images/news/gcasr2026.jpg
+  wide: true
 
 - date: 2026-02-01
   text: "Visiting student researcher at the [Prescience Lab](http://www.presciencelab.org/)."
+  image: /assets/images/news/plab.png
