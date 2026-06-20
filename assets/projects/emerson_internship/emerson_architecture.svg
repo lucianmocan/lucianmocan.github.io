@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" role="img" aria-labelledby="title desc">
+  <title id="title">Simplified architecture of the Emerson internship platform</title>
+  <desc id="desc">A public architecture diagram showing enterprise data sources, an Express API, an Angular interface, a MySQL application database, and automation services.</desc>
+  <defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&amp;family=IBM+Plex+Mono:wght@400&amp;family=IBM+Plex+Sans:wght@400;600&amp;display=swap");
+
+      .paper { fill: #faf7f0; }
+      .node { fill: #faf7f0; stroke: #1e1a14; stroke-width: 1.5; rx: 4; }
+      .node-muted { fill: #f0ead6; stroke: #1e1a14; stroke-width: 1.5; rx: 4; }
+      .label {
+        font-family: "Fraunces", Georgia, serif;
+        font-size: 20px;
+        font-weight: 600;
+        fill: #1e1a14;
+      }
+      .sub {
+        font-family: "IBM Plex Sans", Arial, sans-serif;
+        font-size: 15px;
+        fill: #1e1a14;
+      }
+      .mono {
+        font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", "Courier New", monospace;
+        font-size: 12px;
+        fill: #1e1a14;
+      }
+      .flow { stroke: #6a5acd; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+      .soft-flow { stroke: #6a5acd; stroke-width: 1.8; fill: none; stroke-dasharray: 5 5; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#6a5acd"/>
+    </marker>
+  </defs>
+
+  <rect class="paper" width="980" height="300"/>
+
+  <rect class="node" x="58" y="105" width="174" height="92"/>
+  <text class="mono" x="145" y="129" text-anchor="middle">INPUT</text>
+  <text class="label" x="145" y="159" text-anchor="middle">Enterprise</text>
+  <text class="label" x="145" y="184" text-anchor="middle">data sources</text>
+
+  <rect class="node-muted" x="305" y="92" width="190" height="118"/>
+  <text class="mono" x="400" y="116" text-anchor="middle">BACKEND</text>
+  <text class="label" x="400" y="148" text-anchor="middle">Express API</text>
+  <text class="sub" x="400" y="175" text-anchor="middle">workflow logic</text>
+  <text class="sub" x="400" y="196" text-anchor="middle">authentication</text>
+
+  <rect class="node" x="574" y="28" width="190" height="96"/>
+  <text class="mono" x="669" y="52" text-anchor="middle">INTERFACE</text>
+  <text class="label" x="669" y="84" text-anchor="middle">Angular UI</text>
+  <text class="sub" x="669" y="109" text-anchor="middle">buyer dashboard</text>
+
+  <rect class="node" x="574" y="182" width="190" height="96"/>
+  <text class="mono" x="669" y="206" text-anchor="middle">STATE</text>
+  <text class="label" x="669" y="238" text-anchor="middle">MySQL</text>
+  <text class="sub" x="669" y="263" text-anchor="middle">application data</text>
+
+  <rect class="node" x="792" y="92" width="150" height="118"/>
+  <text class="mono" x="867" y="116" text-anchor="middle">OUTPUT</text>
+  <text class="label" x="867" y="148" text-anchor="middle">Task</text>
+  <text class="label" x="867" y="173" text-anchor="middle">automation</text>
+  <text class="sub" x="867" y="199" text-anchor="middle">documents</text>
+
+  <path class="flow" d="M232 151 H294"/>
+  <path class="flow" d="M495 130 C534 91, 535 78, 563 76"/>
+  <path class="flow" d="M495 172 C534 199, 535 230, 563 230"/>
+  <path class="soft-flow" d="M764 76 C789 90, 792 126, 792 127"/>
+  <path class="flow" d="M764 230 C785 226, 787 173, 792 167"/>
+
+  <text class="mono" x="263" y="135" text-anchor="middle">sync</text>
+  <text class="mono" x="531" y="89" text-anchor="middle">JSON API</text>
+  <text class="mono" x="529" y="250" text-anchor="middle">CRUD</text>
+  <text class="mono" x="795" y="109" text-anchor="middle">actions</text>
+</svg>

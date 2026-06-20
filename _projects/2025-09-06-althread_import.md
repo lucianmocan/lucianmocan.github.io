@@ -6,14 +6,20 @@ description: "Internship within the Computer Science Department at the Universit
 date: "6 September 2025"
 ---
 
-During my first-year master's internship, supervised by Professor [Quentin Bramas](https://bramas.fr/), my main objective was to level up [Althread](https://althread.github.io) and make it a truly modular platform. 
+During my first-year master's internship, supervised by Professor [Quentin Bramas](https://bramas.fr/), my main objective was to level up [Althread](https://althread.github.io), an educational language for modeling and verifying distributed systems, and make it a truly modular platform.
 
-To figure out the best approach, I looked at how several different languages handle modules and imports, from Go and Python to TLA+. The attached report, dives into how I used those insights to design a complete namespace-based import system from scratch. The project bridged the gap between compiler engineering and web development, covering everything from adding control-flow analysis for safe function returns to engineering a browser-native virtual file system. 
+To figure out the best approach, I compared how several languages and modeling tools handle modules and imports, from Promela and TLA+ to Python, JavaScript, and Go. That study helped me design a namespace-based import system for Althread with local file imports, remote dependencies, circular-import detection, proper namespace qualification, and visibility rules for private functions and programs.
 
-It outlines the technical hurdles I faced and shows how these features ultimately evolved Althread into a genuinely usable environment for writing and organizing concurrent code.
+<figure>
+    <img src="/assets/projects/althread_import/language_comparison.001.png" alt="Table comparing Promela, TLA+, Python, Go and Althread import system designs."/>
+    <figcaption>Key aspects of Promela, TLA+, Python, Go and Althread import system designs.</figcaption>
+</figure>
+
+The project bridged compiler engineering and web development. On the language side, I finished user-defined functions with cross-function calls, nested calls, implicit returns, and control-flow analysis to ensure non-void functions return on every path. On the platform side, I adapted the [Althread web IDE](https://althread.github.io/editor/) around a virtual file system and package manager so imported modules and remote dependencies could work inside a WebAssembly-based environment.
+
+Together, these changes made Althread much more usable for writing and organizing concurrent and distributed-system models, while keeping the language approachable for students.
 
 #### Related Documents
 
 - [Defense Presentation](../../assets/projects/althread_import/internship_defense.pdf)
 - [Report](../../assets/projects/althread_import/internship_report.pdf)
-

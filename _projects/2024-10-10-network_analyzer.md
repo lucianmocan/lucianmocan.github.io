@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "(Project) PCAP - an incomplete network analyzer "
+title: "(Project) PCAP - a not-perfect network analyzer"
 date: "10 October 2024"
 ---
 

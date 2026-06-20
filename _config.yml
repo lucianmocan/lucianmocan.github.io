@@ -1,5 +1,5 @@
 title: Lucian Mocan
-description: Your role and description
+description: Systems researcher/engineer and software engineer working on systems, developer tools, and AI-assisted research automation.
 url: "https://lucianmocan.github.io"
 baseurl: ""
 permalink: /blog/:title/
@@ -36,9 +36,9 @@ collections:
 
 # Social links
 social:
-  twitter: yourusername
-  github: yourusername
-  email: you@example.com
+  twitter: luciantqt
+  github: lucianmocan
+  email: lib.lucianmocan@gmail.com
 
 plugins:
   - jekyll-seo-tag
