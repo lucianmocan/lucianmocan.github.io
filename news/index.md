@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Updates
 ---
 
-<p class="section-label">News</p>
+<p class="section-label">Updates</p>
 
 <div class="news-grid">
 {% for item in site.data.news %}
