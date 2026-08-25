@@ -1,3 +1,8 @@
+- date: 2026-08-25
+  text: "Successfully defended my master's thesis, [Medovik: Simplifying Porting to Trusted Execution Environments](/projects/medovik_thesis/)."
+  image: /assets/images/news/master_thesis_defense.jpg
+  wide: true
+
 - date: 2026-08-06
   text: "Received a $5,000 [Tinker](https://thinkingmachines.ai/tinker/) Research Grant from [Thinking Machines Lab](https://thinkingmachines.ai/)."
   wide: true
