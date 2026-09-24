@@ -3,8 +3,6 @@ layout: default
 title: Blog
 ---
 
-<p class="section-label">Writing</p>
-
 <ul class="card-list">
   {% for post in site.posts %}
     <li>

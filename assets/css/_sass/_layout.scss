@@ -46,76 +46,34 @@ body {
     width: 100%;
     max-width: 620px;
     margin: 0 auto;
-    padding: 0.75rem 2rem 0;
+    padding: 2rem 2rem;
 }
 
 /* ─── Header ─────────────────────────────────────────────── */
 
 header {
-    margin-bottom: 1.5rem;
-}
-
-/* Centered masthead: name framed by rules */
-.masthead-flag {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 0.6rem 0 0.7rem;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-}
-
-.site-name {
-    font-family: "Manufacturing Consent", serif;
-    font-size: clamp(2.8rem, 10vw, 5rem);
-    font-weight: 400;
-    letter-spacing: 0.01em;
-    text-transform: none;
-    margin: 0;
-    line-height: 1;
-
-    a {
-        color: var(--text);
-        text-decoration: none;
-
-        &:hover {
-            color: var(--accent);
-            background-color: transparent;
-            text-decoration: none;
-        }
-    }
-}
-
-.masthead-meta {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    font-weight: 400;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--text-dim);
-}
-
-.masthead-dateline {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    padding: 0;
-    border-top: 1px solid var(--rule);
-    font-family: var(--font-mono);
-    font-size: clamp(0.8rem, 2.5vw, 0.9rem);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--text-dim);
+    justify-content: space-between;
+    gap: 2rem;
+    position: fixed;
+    top: 2rem;
+    bottom: 2rem;
+    left: max(1rem, calc(50% - 370px));
 }
 
 nav {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid var(--rule);
+    flex-direction: column;
+    border-right: 1px solid var(--rule);
 
     a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        writing-mode: vertical-rl;
+        padding: 0.85rem 0;
         font-family: var(--font-mono);
         font-size: clamp(0.8rem, 2.5vw, 0.9rem);
         font-weight: 400;
@@ -123,10 +81,13 @@ nav {
         text-transform: uppercase;
         color: var(--text-mid);
         text-decoration: none;
-        padding: 0 0.85rem;
+
+        span {
+            transform: rotate(180deg);
+        }
 
         &:not(:last-child) {
-            border-right: 1px solid var(--rule);
+            border-bottom: 1px solid var(--rule);
         }
 
         &.active {
@@ -134,9 +95,78 @@ nav {
         }
 
         &:hover {
-            color: var(--accent);
-            background-color: transparent;
-            text-decoration: none;
+            color: var(--accent-dark);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
+            background-color: var(--accent-bg);
+            transition: background-color 0.15s ease, color 0.15s ease;
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+    }
+}
+
+.sidebar-copyright,
+.mobile-copyright {
+    margin: 0;
+    flex-shrink: 0;
+    font-family: var(--font-serif);
+    font-size: 0.65rem;
+    font-weight: 400;
+    color: var(--text-dim);
+}
+
+.sidebar-copyright {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+}
+
+.mobile-copyright {
+    display: none;
+}
+
+@media (max-width: 780px), (max-height: 700px) {
+    header {
+        display: block;
+        position: static;
+        margin-bottom: 1.5rem;
+    }
+
+    .sidebar-copyright {
+        display: none;
+    }
+
+    .mobile-copyright {
+        display: block;
+        margin-top: auto;
+        padding: 2rem 1.25rem;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-right: none;
+        border-bottom: 1px solid var(--rule);
+
+        a {
+            writing-mode: horizontal-tb;
+
+            span {
+                transform: none;
+            }
+            padding: 0 0.7rem;
+
+            &:not(:last-child) {
+                border-bottom: none;
+                border-right: 1px solid var(--rule);
+            }
         }
     }
 }
@@ -193,17 +223,6 @@ a {
         background-color: var(--accent-bg);
         transition: background-color 0.15s ease, color 0.15s ease;
     }
-}
-
-/* ─── Section label (above card lists) ───────────────────── */
-
-.section-label {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--text-dim);
-    margin: 0 0 1.25rem;
 }
 
 /* ─── Card list (blog / projects listing) ────────────────── */
@@ -280,15 +299,9 @@ a {
     text-decoration: none;
 
     &:hover {
-        background-color: transparent;
-        text-decoration: none;
-
-        .card-title {
-            color: var(--accent);
-        }
-
+        .card-title,
         .card-date {
-            color: var(--accent);
+            color: var(--accent-dark);
         }
     }
 
@@ -346,18 +359,6 @@ a {
     }
 }
 
-/* ─── Footer ─────────────────────────────────────────────── */
-
-footer {
-    margin-top: auto;
-    text-align: center;
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    color: var(--text-dim);
-    letter-spacing: 0.06em;
-    padding: 4rem 0 2rem;
-}
-
 /* ─── Profile image ──────────────────────────────────────── */
 
 .profile-float {
@@ -397,14 +398,6 @@ footer {
         padding-top: 2rem;
         padding-left: 1.25rem;
         padding-right: 1.25rem;
-    }
-
-    nav a {
-        padding: 0 0.7rem;
-    }
-
-    .masthead-meta {
-        font-size: 0.65rem;
     }
 
 }

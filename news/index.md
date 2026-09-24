@@ -3,8 +3,6 @@ layout: default
 title: Updates
 ---
 
-<p class="section-label">Updates</p>
-
 <div class="news-grid">
 {% for item in site.data.news %}
   <figure class="news-tile{% if item.wide %} news-tile--wide{% endif %}">

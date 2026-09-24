@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<p class="section-label">About</p>
-
 <div><img src="/assets/images/about/profile.png" alt="Lucian Mocan" class="profile-float"></div>
 
 I'm **Lucian**, a systems researcher and software engineer. I hold an M.S. in Computer Science, Networks, Internet and Systems Engineering from the [University of Strasbourg](https://mathinfo.unistra.fr/formations/master/master-informatique/odf-parcours-science-et-ingenierie-des-reseaux-de-linternet-et-des-systemes-siris-PR12-18105/?tab=cours) (B.S., 6th out of 122), completed alongside the selective five-year [Cursus Master en Ingénierie](https://mathinfo.unistra.fr/en/courses/masters-degree-of-engineering-in-computer-science/odf-subprogram-cursus-master-ingenierie-cmi-informatique-systemes-et-reseaux-PR1233-18114/) (CMI) track. I am drawn to foundational software: tools, runtimes, languages, and infra that other engineers, researchers, and scientists can build on.
