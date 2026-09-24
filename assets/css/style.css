@@ -144,7 +144,7 @@ nav a:focus-visible {
   }
   nav a {
     writing-mode: horizontal-tb;
-    padding: 0 0.7rem;
+    padding: 0 0.4rem;
   }
   nav a span {
     transform: none;
@@ -152,6 +152,14 @@ nav a:focus-visible {
   nav a:not(:last-child) {
     border-bottom: none;
     border-right: 1px solid var(--rule);
+  }
+}
+@media (width < 386px) {
+  nav a[href="/resume"] {
+    display: none;
+  }
+  nav a[href="/projects"]:not(:last-child) {
+    border-right: none;
   }
 }
 /* ─── Content ────────────────────────────────────────────── */
