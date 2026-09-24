@@ -2,8 +2,17 @@
 layout: default
 ---
 <article class="article-content">
-    {{ content }}
+    {% assign title_heading = content | split: '</h2>' | first | append: '</h2>' %}
+    {% assign post_body = content | remove_first: title_heading %}
+    {% assign word_count = post_body | strip_html | number_of_words %}
+    <div class="post-heading">
+        {{ title_heading }}
+        <span class="post-word-count">{{ word_count }} words</span>
+    </div>
+    {{ post_body }}
     <footer class="post-footer">
         <time class="post-date-md">{{ page.date | date: "%B %d, %Y" }}</time>
     </footer>
 </article>
+
+<script src="{{ "/assets/js/photo-viewer.js" | relative_url }}" defer></script>
